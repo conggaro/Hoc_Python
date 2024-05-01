@@ -7,3 +7,11 @@ bước 2: gõ <code>python tên_file.py</code>
 <code>number = 42
 string_number = str(number)
 print(f"Chuỗi số nguyên: {string_number}")</code>
+
+# Chuyển kiểu dữ liệu string sang int
+<code>str_num = "123"
+if str_num.isdigit():
+    num = int(str_num)
+    print(num)
+else:
+    print("Chuỗi không thể chuyển đổi thành số nguyên")</code>
