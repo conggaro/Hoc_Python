@@ -88,3 +88,7 @@ arr_2 = [
 
 print(arr_1)
 print(arr_2)</pre>
+
+# Nhập/xuất trong Python
+<pre>val = input("Enter your value: ")
+print(val)</pre>
