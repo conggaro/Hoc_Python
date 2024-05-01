@@ -17,7 +17,7 @@ else:
     &nbsp;&nbsp;&nbsp;&nbsp;print("Chuỗi không thể chuyển đổi thành số nguyên")</code>
 
 # Chuyển kiểu dữ liệu string sang float
-<code>def isfloat(value):
+<pre>def isfloat(value):
     try:
         float(value)
         return True
@@ -30,4 +30,4 @@ if isfloat(str_num):
     num = float(str_num)
     print(num)
 else:
-    print("Chuỗi không thể chuyển đổi thành số thập phân")</code>
+    print("Chuỗi không thể chuyển đổi thành số thập phân")</pre>
