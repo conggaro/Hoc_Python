@@ -77,3 +77,14 @@ print(p.showInfo())
 # truy cập thuộc tính tĩnh "count"
 # ở bên trong lớp "Person"
 print(Person.count)</pre>
+
+# Mảng trong Python
+<pre>arr_1 = [1, 2, 3, 4, 5]
+arr_2 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(arr_1)
+print(arr_2)</pre>
