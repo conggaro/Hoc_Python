@@ -11,7 +11,7 @@ print(f"Chuỗi số nguyên: {string_number}")</code>
 # Chuyển kiểu dữ liệu string sang int
 <code>str_num = "123"
 if str_num.isdigit():
-    num = int(str_num)
-    print(num)
+    &nbsp;num = int(str_num)
+    &nbsp;print(num)
 else:
-    print("Chuỗi không thể chuyển đổi thành số nguyên")</code>
+    &nbsp;print("Chuỗi không thể chuyển đổi thành số nguyên")</code>
