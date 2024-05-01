@@ -15,3 +15,21 @@ if str_num.isdigit():
     &nbsp;&nbsp;&nbsp;&nbsp;print(num)
 else:
     &nbsp;&nbsp;&nbsp;&nbsp;print("Chuỗi không thể chuyển đổi thành số nguyên")</code>
+
+# Chuyển kiểu dữ liệu string sang float
+<code># hàm kiểm tra số thập phân
+# đây là hàm tự định nghĩa
+def isfloat(value):
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
+
+
+str_num = "3.14"
+if isfloat(str_num):
+    num = float(str_num)
+    print(num)
+else:
+    print("Chuỗi không thể chuyển đổi thành số thập phân")</code>
