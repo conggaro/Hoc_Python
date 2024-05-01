@@ -41,7 +41,6 @@ else:
     # thuộc tính static
     count = 0
 
-    
     # hàm khởi tạo constructor
     def __init__(self, parameter1, parameter2, parameter3):
         self.fullName = parameter1
@@ -49,14 +48,13 @@ else:
         self.gender = parameter3
         Person.increment_count()
 
-    
     # dấu "@" dùng để nói với trình biên dịch
     # đây là phương thức tĩnh
     @staticmethod
     def increment_count():
         Person.count += 1
 
-
+    # phương thức bình thường
     def showInfo(self):
         return f"[{self.fullName}, {self.age}, {self.gender}]"
 
