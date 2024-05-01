@@ -31,3 +31,7 @@ if isfloat(str_num):
     print(num)
 else:
     print("Chuỗi không thể chuyển đổi thành số thập phân")</pre>
+
+# Vòng lặp for
+<pre>for index in range(10):
+    print(index)</pre>
