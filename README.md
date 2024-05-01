@@ -35,3 +35,47 @@ else:
 # Vòng lặp for
 <pre>for index in range(10):
     print(index)</pre>
+
+# Lớp trong Python
+<pre>class Person:
+    # thuộc tính static
+    count = 0
+
+    
+    # hàm khởi tạo constructor
+    def __init__(self, parameter1, parameter2, parameter3):
+        self.fullName = parameter1
+        self.age = parameter2
+        self.gender = parameter3
+        Person.increment_count()
+
+    
+    # dấu "@" dùng để nói với trình biên dịch
+    # đây là phương thức tĩnh
+    @staticmethod
+    def increment_count():
+        Person.count += 1
+
+
+    def showInfo(self):
+        return f"[{self.fullName}, {self.age}, {self.gender}]"
+
+
+# tạo đối tượng có kiểu dữ liệu Person
+p = Person("Nguyễn Văn A", 20, True)
+
+# in ra "họ tên"
+print(p.fullName)
+
+# in ra tuổi
+print(p.age)
+
+# in ra giới tính
+print(p.gender)
+
+# gọi phương thức showInfo()
+print(p.showInfo())
+
+# truy cập thuộc tính tĩnh "count"
+# ở bên trong lớp "Person"
+print(Person.count)</pre>
