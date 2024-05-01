@@ -17,8 +17,7 @@ else:
     &nbsp;&nbsp;&nbsp;&nbsp;print("Chuỗi không thể chuyển đổi thành số nguyên")</code>
 
 # Chuyển kiểu dữ liệu string sang float
-<code>
-def isfloat(value):
+<code>def isfloat(value):
     try:
         float(value)
         return True
