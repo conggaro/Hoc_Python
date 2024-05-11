@@ -125,3 +125,20 @@ while True:
 <pre>x = 10
 status = "Lớn hơn 5" if x > 5 else "Không lớn hơn 5"
 print(status)  # Kết quả: "Lớn hơn 5"</pre>
+
+# Chuyển chuỗi string thành mảng
+<pre>listItem_Str = "1,2,3,4,5,6"
+
+
+# mảng ký tự
+listItem = listItem_Str.split(",")
+print(listItem)
+
+
+# mảng số
+listNumber = []
+for i in range(len(listItem) - 1):
+    item = int(listItem[i])
+    listNumber.append(item)
+
+print(listNumber)</pre>
