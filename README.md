@@ -115,3 +115,8 @@ while True:
         break
     else:
         x = input("Please re-enter any number: ")</pre>
+
+# Toán tử 3 ngôi
+<pre>x = 10
+status = "Lớn hơn 5" if x > 5 else "Không lớn hơn 5"
+print(status)  # Kết quả: "Lớn hơn 5"</pre>
