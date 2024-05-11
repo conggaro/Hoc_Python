@@ -46,7 +46,9 @@ else:
         self.fullName = parameter1
         self.age = parameter2
         self.gender = parameter3
+        
         Person.increment_count()
+        self.numericalOrder = Person.count
 
     # dấu "@" dùng để nói với trình biên dịch
     # đây là phương thức tĩnh
@@ -56,11 +58,14 @@ else:
 
     # phương thức bình thường
     def showInfo(self):
-        return f"[{self.fullName}, {self.age}, {self.gender}]"
+        return f"[{self.numericalOrder}, {self.fullName}, {self.age}, {self.gender}]"
 
 
 # tạo đối tượng có kiểu dữ liệu Person
 p = Person("Nguyễn Văn A", 20, True)
+
+# in ra "số thứ tự"
+print(p.numericalOrder)
 
 # in ra "họ tên"
 print(p.fullName)
