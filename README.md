@@ -92,3 +92,26 @@ print(arr_2)</pre>
 # Nhập/xuất trong Python
 <pre>val = input("Enter your value: ")
 print(val)</pre>
+
+# Nhập vào 1 số và kiểm tra số đó
+<pre># hàm kiểm tra số nguyên
+def IsInteger(x):
+    try:
+        int(x)
+        return True
+    except ValueError:
+        return False
+
+
+# nhập vào vào số bất kỳ
+x = input("Enter any number: ")
+
+
+# nếu người dùng nhập sai
+# thì người dùng phải nhập lại
+while True:
+    if IsInteger(x):
+        print(f"It is {int(x)}.")
+        break
+    else:
+        x = input("Please re-enter any number: ")</pre>
