@@ -142,3 +142,20 @@ for i in range(len(listItem) - 1):
     listNumber.append(item)
 
 print(listNumber)</pre>
+
+# Chuyển mảng thành chuỗi string
+<pre>list1 = [1, 2, 3, 4, 5, 6]
+list2 = []
+
+for item in list1:
+    list2.append(str(item))
+
+v_Str = ","
+
+# phương thức join()
+# chỉ hoạt động
+# trong trường hợp tất cả phần tử
+# của danh sách là kiểu dữ liệu string
+listItem_Str = v_Str.join(list2)
+
+print(listItem_Str)</pre>
