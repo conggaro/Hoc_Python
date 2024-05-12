@@ -34,6 +34,12 @@ else:
 
 # Vòng lặp for
 <pre>for index in range(10):
+    print(index)
+
+print()
+
+# in ra các số từ 5 đến 10
+for index in range(5, 11):
     print(index)</pre>
 
 # Lớp trong Python
