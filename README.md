@@ -185,3 +185,27 @@ def modify_value(x):
 num = 5
 modify_value(num)
 print("Outside function:", num)</pre>
+
+# Tham chiếu trong python
+<pre>"""
+Tham chiếu (Pass by Reference):
+Khi truyền đối số vào hàm,
+Python truyền địa chỉ của biến đó
+(thay vì tạo bản sao giá trị).
+
+Thay đổi giá trị của tham số trong hàm
+ảnh hưởng trực tiếp đến giá trị
+của biến bên ngoài hàm.
+
+Tham chiếu thường áp dụng
+cho các đối tượng có thể thay đổi
+(như danh sách, từ điển, lớp, …).
+"""
+
+def modify_list(lst):
+    lst.append(100)
+    print("Inside function:", lst)
+
+my_list = [1, 2, 3]
+modify_list(my_list)
+print("Outside function:", my_list)</pre>
