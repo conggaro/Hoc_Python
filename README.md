@@ -165,3 +165,23 @@ v_Str = ","
 listItem_Str = v_Str.join(list2)
 
 print(listItem_Str)</pre>
+
+# Tham trị trong python
+<pre>"""
+Tham trị (Pass by Value):
+Khi truyền đối số vào hàm,
+Python tạo một bản sao của giá trị đó
+và gán cho tham số trong hàm.
+
+Thay đổi giá trị của tham số trong hàm
+không ảnh hưởng đến giá trị ban đầu
+của biến bên ngoài hàm.
+"""
+
+def modify_value(x):
+    x += 10
+    print("Inside function:", x)
+
+num = 5
+modify_value(num)
+print("Outside function:", num)</pre>
