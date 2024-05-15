@@ -78,14 +78,14 @@ n = Nhap_SoNguyen(message2)
 print()
 
 # kiểm tra m có là số nguyên tố không
-check1 = f"{m} là số nguyên tố" if KiemTra_SoNguyenTo(m) else f"{m} không là số nguyên số"
+check1 = f"{m} là số nguyên tố" if KiemTra_SoNguyenTo(m) else f"{m} không là số nguyên tố"
 print(check1)
 
 # xuống dòng
 print()
 
 # kiểm tra n có là số nguyên tố không
-check2 = f"{n} là số nguyên tố" if KiemTra_SoNguyenTo(n) else f"{n} không là số nguyên số"
+check2 = f"{n} là số nguyên tố" if KiemTra_SoNguyenTo(n) else f"{n} không là số nguyên tố"
 print(check2)
 
 # xuống dòng
