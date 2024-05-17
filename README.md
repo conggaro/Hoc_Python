@@ -209,3 +209,14 @@ def modify_list(lst):
 my_list = [1, 2, 3]
 modify_list(my_list)
 print("Outside function:", my_list)</pre>
+
+# Nhận biết kiểu dữ liệu của biến
+<pre>a = 1
+b = 9.9
+c = "Hello"
+d = True
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))</pre>
