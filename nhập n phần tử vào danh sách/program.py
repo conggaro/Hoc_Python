@@ -37,3 +37,12 @@ print("\n\nTổng = " + str(total))
 
 # tính trung bình cộng
 print("\nTrung bình cộng = " + str(total / n))
+
+
+# xóa phần tử khỏi danh sách
+indexText = input("\nNhập index cho phần tử muốn xóa: ")
+indexNumber = int(indexText)
+del(arr[indexNumber])
+
+print("\nDanh sách sau khi xóa:")
+print(arr)
